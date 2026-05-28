@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Certificates | Prani Portfolio</title>
+
+  <meta
+    name="description"
+    content="Professional certifications earned by Prani."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header>
+    <div class="container">
+
+      <h1>Certificates</h1>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li>
+            <a href="certificates.html" aria-current="page">
+              Certificates
+            </a>
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section aria-labelledby="certificate-heading">
+      <div class="container">
+
+        <h2 id="certificate-heading">
+          Achievements & Certifications
+        </h2>
+
+        <ul>
+          <li>Frontend Development Certification</li>
+          <li>Python Programming Certification</li>
+          <li>Web Accessibility Fundamentals</li>
+        </ul>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Prani</p>
+    </div>
+  </footer>
+
+</body>
+</html>
