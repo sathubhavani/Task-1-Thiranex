@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Projects | Prani Portfolio</title>
+
+  <meta
+    name="description"
+    content="Explore web development projects built by Prani."
+  />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">
+    Skip to main content
+  </a>
+
+  <header>
+    <div class="container">
+
+      <h1>Projects</h1>
+
+      <nav aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" aria-current="page">Projects</a></li>
+          <li><a href="certificates.html">Certificates</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <section aria-labelledby="project-list-heading">
+      <div class="container">
+
+        <h2 id="project-list-heading">
+          My Work
+        </h2>
+
+        <article class="card">
+          <h3>Task Manager App</h3>
+
+          <p>
+            Productivity application with authentication and real-time updates.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Weather Dashboard</h3>
+
+          <p>
+            Real-time weather application using external APIs.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Prani</p>
+    </div>
+  </footer>
+
+</body>
+</html>
